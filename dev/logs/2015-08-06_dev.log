@@ -1,8 +1,0 @@
-["2015-08-06 10:15:00 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php",43,"Database::connect","Database connection open",null]
-,["2015-08-06 10:15:00 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php",29,"Session::check_login",{"rcvicharan":"db1dc11cf7226b77716b0c260d19450d"},"Checking login."]
-,["2015-08-06 10:15:00 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php",180,"Database::confirm_session","SELECT session_id, profile_id FROM 3_session WHERE session_id='db1dc11cf7' AND active='1'",""]
-,["2015-08-06 10:15:00 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php",41,"Session::check_login","session_id: db1dc11cf7","session id is not confirmed"]
-,["2015-08-06 10:15:31 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php",43,"Database::connect","Database connection open",null]
-,["2015-08-06 10:15:31 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php",29,"Session::check_login",{"rcvicharan":"db1dc11cf7226b77716b0c260d19450d"},"Checking login."]
-,["2015-08-06 10:15:31 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php",180,"Database::confirm_session","SELECT session_id, profile_id FROM 3_session WHERE session_id='db1dc11cf7' AND active='1'",""]
-,["2015-08-06 10:15:31 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php",41,"Session::check_login","session_id: db1dc11cf7","session id is not confirmed"]

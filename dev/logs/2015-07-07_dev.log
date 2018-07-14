@@ -1,4 +1,0 @@
-["2015-07-07 21:34:02 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php",43,"Database::connect","Database connection open",null]
-,["2015-07-07 21:34:02 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php",29,"Session::check_login",{"rcvicharan":"321f4422191b4716950c6ec26aa685e0"},"Checking login."]
-,["2015-07-07 21:34:02 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php",180,"Database::confirm_session","SELECT session_id, profile_id FROM 3_session WHERE session_id='321f442219' AND active='1'",""]
-,["2015-07-07 21:34:02 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php",41,"Session::check_login","session_id: 321f442219","session id is not confirmed"]

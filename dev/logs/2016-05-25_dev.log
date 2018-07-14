@@ -1,6 +1,0 @@
-["2016-05-25 15:54:21 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php","Database::connect",44,"Database connection open",null]
-,["2016-05-25 15:54:21 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php","Database::confirm_session",212,"SELECT session_id, profile_id FROM 3_session WHERE session_id='f22d786fe8' AND active='1'",""]
-,["2016-05-25 15:54:21 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php","Session::check_login",39,"session_id: f22d786fe8","session id is not confirmed"]
-,["2016-05-25 15:54:23 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php","Database::connect",44,"Database connection open",null]
-,["2016-05-25 15:54:23 -04:00 EDT","success","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Database.class.php","Database::confirm_session",212,"SELECT session_id, profile_id FROM 3_session WHERE session_id='7209420a1d' AND active='1'",""]
-,["2016-05-25 15:54:23 -04:00 EDT","log","\/home\/kishore\/public_html\/rcvicharan\/dev\/class\/Session.class.php","Session::check_login",39,"session_id: 7209420a1d","session id is not confirmed"]

@@ -1,8 +1,0 @@
-["2014-09-09 11:36:00 -04:00 EDT","success","/home/kishore/public_html/rcvicharan/dev/class/Database.class.php","43","Database::connect","Database connection open",""],
-["2014-09-09 11:36:00 -04:00 EDT","log","/home/kishore/public_html/rcvicharan/dev/class/Session.class.php","28","Session::check_login","{"rcvicharan":"b140e6954e63ae59937845cf0eae6028"}",""],
-["2014-09-09 11:36:00 -04:00 EDT","success","/home/kishore/public_html/rcvicharan/dev/class/Database.class.php","176","Database::confirm_session","SELECT session_id, profile_id FROM session WHERE session_id='b140e6954e' AND active='1'",""],
-["2014-09-09 11:36:00 -04:00 EDT","log","/home/kishore/public_html/rcvicharan/dev/class/Session.class.php","40","Session::check_login","session_id: b140e6954e63ae59937845cf0eae6028","session id is not confirmed"],
-["2014-09-09 11:36:01 -04:00 EDT","success","/home/kishore/public_html/rcvicharan/dev/class/Database.class.php","43","Database::connect","Database connection open",""],
-["2014-09-09 11:36:01 -04:00 EDT","log","/home/kishore/public_html/rcvicharan/dev/class/Session.class.php","28","Session::check_login","{"rcvicharan":"b140e6954e63ae59937845cf0eae6028"}",""],
-["2014-09-09 11:36:01 -04:00 EDT","success","/home/kishore/public_html/rcvicharan/dev/class/Database.class.php","176","Database::confirm_session","SELECT session_id, profile_id FROM session WHERE session_id='b140e6954e' AND active='1'",""],
-["2014-09-09 11:36:01 -04:00 EDT","log","/home/kishore/public_html/rcvicharan/dev/class/Session.class.php","40","Session::check_login","session_id: b140e6954e63ae59937845cf0eae6028","session id is not confirmed"],
