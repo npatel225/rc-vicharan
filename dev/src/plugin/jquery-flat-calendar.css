@@ -1,0 +1,117 @@
+﻿
+#flatcal-body,
+#flatcal-header,
+.ui-datepicker{
+	border-collapse:collapse;
+	width:100%;
+	border-spacing:0px;
+	border:0px;
+}
+
+#flatcal-body{
+	border-bottom:1px solid #DDD;
+	border-right:1px solid #DDD;
+}
+#flatcal-header{background-color:#f0f0f0;}
+#flatcal-header td{
+	text-align:center;
+	cursor:pointer;
+  padding:0px;
+}
+#flatcal-header td:nth-child(1),
+#flatcal-header td:nth-child(3){padding:0px 30px;}
+#flatcal-header td:nth-child(2){
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 1.5em;
+	margin-top: 5px;
+}
+#flatcal-header td:nth-child(1){border-right:1px solid #ddd;}
+#flatcal-header td:nth-child(3){border-left:1px solid #ddd;}
+
+#flatcal-body>tbody th,
+#flatcal-body>tbody td{width:14.28%;}
+#flatcal-body>thead th{
+	background-color: #F7F7F7;
+	border: 1px solid #DDD;
+	padding: 10px 0px !important;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor:default;
+}
+#flatcal-body>tbody td{
+	border: 1px solid #DDD;
+	background-color:#fff;
+	text-align:center;
+	height:46px;
+	border-width:1px 0px 0px 1px;
+	cursor:pointer;
+	position:relative;
+}
+#flatcal-body>tbody td.flatcal-today{
+	font-weight:bold;
+	box-shadow: inset 0px 0px 0px 2px #DDD;
+}
+#flatcal-body>tbody td.other-month{color:#bbb;}
+#flatcal-body>tbody td.flatcal-sun,
+#flatcal-body>tbody td.flatcal-sat{background-color:#fafafa;}
+#flatcal-body>tbody td .flatcal-day-event{
+	border-bottom:3px solid #3A87AD;
+	width:60%;
+	min-width:10px;
+	max-width:30px;
+	margin:5px auto;
+	position:absolute;
+	left:0;
+	right:0;
+}
+#flatcal-body>tbody td.flatcal-day-active{
+	background-color:#f0f0f0;
+	font-size:1.1em;
+}
+#flatcal-day-event{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#flatcal-day-event li{
+	display:block;
+	position:relative;
+	height:50px;
+	border-bottom:1px dotted #888;
+}
+#flatcal-day-event li:last-child{border-bottom: none;}
+#flatcal-day-event li>span{
+	position:absolute;
+	height: 100%;
+	font-size:1em;
+}
+#flatcal-day-event li>span button{
+	font-size: 1em;
+}
+#flatcal-day-event li>span button+button{
+	margin-left: 5px;
+}
+#flatcal-day-event li>span:nth-child(1){
+	left:5px;
+	top:15px;
+}
+#flatcal-day-event li>span:nth-child(1).detail{top:6px;}
+#flatcal-day-event li>span:nth-child(1).detail>.title{font-size:0.9em;}
+#flatcal-day-event li>span:nth-child(1).detail>.note{
+	margin-top:5px;
+	margin-left:5px;
+	font-size:0.8em;
+	color:#aaa;
+	display:block;
+}
+#flatcal-day-event li>span:nth-child(2){
+	right:0px;
+	top:0px;
+}
+#flatcal-day-event li>span:nth-child(2) button{height: 100%;}
+#flatcal-day-event li#no-event{
+	text-align:center;
+	padding-top:16px;
+	opacity:0.4;
+}
